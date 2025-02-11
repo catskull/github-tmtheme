@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>GitHub Dark.tmTheme</string>
+        <key>settings</key>
+        <array>
+            <!-- Global Settings -->
+            <dict>
+                <key>settings</key>
+                <dict>
+                    <key>background</key>
+                    <string>#0d1117</string> <!-- Background -->
+                    <key>foreground</key>
+                    <string>#e6edf3</string> <!-- Main Text -->
+                    <key>caret</key>
+                    <string>#ffffff</string> <!-- Cursor Color -->
+                    <key>selection</key>
+                    <string>#21262d</string> <!-- Selection Background -->
+                    <key>selectionForeground</key>
+                    <string>#e6edf3</string> <!-- Selected Text -->
+                </dict>
+            </dict>
+
+            <!-- Keywords -->
+            <dict>
+                <key>name</key>
+                <string>Keyword</string>
+                <key>scope</key>
+                <string>keyword</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#f78166</string> <!-- Accent Color -->
+                    <key>fontStyle</key>
+                    <string>bold</string>
+                </dict>
+            </dict>
+
+            <!-- Strings -->
+            <dict>
+                <key>name</key>
+                <string>String</string>
+                <key>scope</key>
+                <string>string</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#3fb950</string> <!-- Green Strings -->
+                </dict>
+            </dict>
+
+            <!-- Comments -->
+            <dict>
+                <key>name</key>
+                <string>Comment</string>
+                <key>scope</key>
+                <string>comment</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#7d8590</string> <!-- Gray Comments -->
+                    <key>fontStyle</key>
+                    <string>italic</string>
+                </dict>
+            </dict>
+
+            <!-- Functions -->
+            <dict>
+                <key>name</key>
+                <string>Function Name</string>
+                <key>scope</key>
+                <string>entity.name.function</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#2f81f7</string> <!-- Blue Functions -->
+                </dict>
+            </dict>
+
+            <!-- Variables -->
+            <dict>
+                <key>name</key>
+                <string>Variable</string>
+                <key>scope</key>
+                <string>variable</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#e6edf3</string> <!-- Normal Text -->
+                </dict>
+            </dict>
+
+            <!-- Constants -->
+            <dict>
+                <key>name</key>
+                <string>Constant</string>
+                <key>scope</key>
+                <string>constant</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#db6d28</string> <!-- Orange Constants -->
+                </dict>
+            </dict>
+
+            <!-- Class Names -->
+            <dict>
+                <key>name</key>
+                <string>Class Name</string>
+                <key>scope</key>
+                <string>entity.name.class</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#1f6feb</string> <!-- Cyan Classes -->
+                </dict>
+            </dict>
+
+            <!-- Operators -->
+            <dict>
+                <key>name</key>
+                <string>Operators</string>
+                <key>scope</key>
+                <string>keyword.operator</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#79c0ff</string> <!-- Light Blue Operators -->
+                </dict>
+            </dict>
+
+            <!-- Punctuation -->
+            <dict>
+                <key>name</key>
+                <string>Punctuation</string>
+                <key>scope</key>
+                <string>punctuation</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#7d8590</string> <!-- Gray Punctuation -->
+                </dict>
+            </dict>
+
+            <!-- Errors -->
+            <dict>
+                <key>name</key>
+                <string>Error</string>
+                <key>scope</key>
+                <string>invalid</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#f85149</string> <!-- Red Errors -->
+                    <key>fontStyle</key>
+                    <string>bold</string>
+                </dict>
+            </dict>
+
+            <!-- Warnings -->
+            <dict>
+                <key>name</key>
+                <string>Warning</string>
+                <key>scope</key>
+                <string>warning</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#db6d28</string> <!-- Orange Warnings -->
+                </dict>
+            </dict>
+
+        </array>
+    </dict>
+</plist>
